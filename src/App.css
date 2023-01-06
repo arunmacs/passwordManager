@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.appContainer {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  padding: 20px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: flex-start;
+}
+.appLogo {
+  width: 130px;
+  height: 40px;
+  margin: 5px 0px;
+}
+
+.cardBackgroundStyle {
+  background-color: #5763a5;
+  min-width: 100%;
+  height: clamp(350px, 400px, 450px);
+  margin: 10px 0px;
+  padding: 15px 30px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardBackgroundStyle.passwordManagerBg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/password-manager-lg-img.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 85% 15%;
+}

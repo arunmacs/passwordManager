@@ -1,0 +1,70 @@
+.formContainer {
+  background-color: #454f84;
+  border-radius: 10px;
+  height: 80%;
+  min-width: 60%;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: flex-start;
+}
+.formContainer .formTitleDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.formTitle {
+  color: #f8fafc;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 6px;
+}
+.inputTag {
+  height: 38px;
+  width: 100%;
+  border: none;
+  border-left: 1px solid #b6c3ca;
+  outline: none;
+  padding: 5px 8px;
+  font-size: 14px;
+  border-radius: 2px;
+}
+
+.formContainer .inputDiv {
+  background-color: #f8fafc;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  margin: 8px;
+  border-radius: 2px;
+}
+
+.formContainer .inputImg {
+  height: 18px;
+  width: 18px;
+  margin: 0% 5%;
+}
+
+.addButtonDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+  margin: 10px 25px;
+}
+.addButton {
+  background-color: #0b69ff;
+  color: #f8fafc;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 22px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+}

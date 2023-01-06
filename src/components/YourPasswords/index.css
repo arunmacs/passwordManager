@@ -1,0 +1,193 @@
+.cardBackgroundStyle.yourPasswords {
+  background-color: #5763a5;
+  min-width: 100%;
+  height: clamp(350px, 400px, 450px);
+  margin: 10px 0px;
+  padding: 15px 30px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: flex-start;
+  min-width: 100%;
+}
+.passwordsContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  overflow: auto;
+}
+.passwordCard {
+  padding: 1%;
+  border: 1px solid #7683cb;
+  border-radius: 2px;
+  height: 90px;
+  min-width: 20%;
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.passwordsCount > span {
+  color: #f8fafc;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 3px 0px;
+  font-weight: 600;
+}
+
+.yourPasswordsTitleDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.passwordsCount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px;
+  padding: 0px;
+  width: 30px;
+  height: 20px;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+}
+.yourPasswordsTitleDiv .yourPasswordsTitle {
+  color: #f8fafc;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0px;
+}
+.detailsDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+}
+.detailsDiv .details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.cardDetails.website,
+.cardDetails.username,
+.cardDetails.password {
+  color: #f8fafc;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 2px 0px;
+}
+
+.cardDetails.password {
+  height: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 2px 0px;
+}
+
+.cardDetails.website,
+.cardDetails.username {
+  width: 90%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.stars {
+  min-width: 90px;
+  max-width: 100px;
+  height: 20px;
+  object-fit: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2px 0px;
+}
+
+hr {
+  width: 100%;
+  height: 2px;
+  outline: none;
+  border: none;
+  background-color: #7582c9;
+}
+
+label {
+  color: #f8fafc;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 5px;
+}
+.checkboxDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+}
+.checkbox {
+  height: 18px;
+  width: 18px;
+}
+.yourPasswords .inputDiv {
+  background-color: #f8fafc;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 40%;
+  margin: 8px;
+  border-radius: 2px;
+}
+
+.yourPasswords .inputDiv .inputImg {
+  height: 18px;
+  width: 18px;
+  margin: 0% 5%;
+}
+
+.deleteDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 20px;
+  margin: 0px;
+  padding: 5px;
+}
+
+.deleteDiv > button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.delete {
+  height: 18px;
+  width: 18px;
+}
+
+.webPic {
+  width: 30px;
+  height: 30px;
+  margin: 0px 8px;
+  color: #f8fafc;
+  background-color: aqua;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.webPic h3 {
+  margin: 0px;
+}
